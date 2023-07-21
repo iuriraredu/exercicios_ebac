@@ -31,6 +31,11 @@ Funcionalidade: [US-0001] Configurar produto
         E clico no botão "Limpar"
         Então volta para as seleções originais
 
+    Cenário: Seleção de produto válido
+        Quando seleciono "Blue" e tamanho "XL"
+        E insiro "1"
+        Então sou redirecionado para a tela de checkout
+
 Funcionalidade: [US-0002] Login na plataforma  
     Como cliente da EBAC-SHOP
     Quero fazer o login (autenticação) na plataforma  
@@ -63,6 +68,10 @@ Funcionalidade: [US-0003] Tela de cadastro - Checkout
 
     Contexto: Acessar a Página de cadastro
         Dado que estou a página de cadastro
+
+    Cenário: Cadastro de usuário com sucesso
+        Quando preencho todos os campos com os dados corretos
+        Então sou redirecionado para a tela de checkout
 
     Cenário: Verificar se todos os campos com asteriscos são obrigatórios
         Quando preencho os campos com os dados:
