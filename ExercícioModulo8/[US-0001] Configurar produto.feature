@@ -30,3 +30,8 @@ Funcionalidade: [US-0001] Configurar produto
         Quando seleciono cor, tamanho e quantidade
         E clico no botão "Limpar"
         Então volta para as seleções originais
+        
+    Cenário: Configurar produto com sucesso
+        Quando seleciono cor "Blue" e tamanho "M"
+        E insiro quantidade 2
+        Então sou redirecionado para tela de checkout
