@@ -15,12 +15,12 @@ Funcionalidade: [US-0003] Tela de cadastro - Checkout
 
     Cenário: Verificar se todos os campos com asteriscos são obrigatórios
         Quando preencho os campos obrigatórios
-        Mas deixo algum campo obrigatório em branco
+        E deixo algum campo obrigatório em branco
         Então sistema apresenta a seguinte mensagem "Atenção, campos obrigatórios não foram preenchidos!"
 
     Cenário: Verificar se o formato do e-mail é válido
         Quando preencho os campos obrigatórios
-        Mas insiro o e-mail "teste78454.com.br"
+        E insiro o e-mail "teste78454.com.br"
         Então sistema apresenta a seguinte mensagem "Atenção, e-mail preenchido inválido!"
 
     Cenário: Cadastro realizado com sucesso
